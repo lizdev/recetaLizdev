@@ -2,63 +2,41 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
-	<title>RECETA DE PASTEL DE CHOCOLATE</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>INDICE</title>
 </head>
 <body>
 
 <div class="row ">
 <div class="col s1"></div>
 <div class="col s10">
-<h4 class="card-panel teal lighten-2 center-align">INGREDIENTES</h4>
+<h4 class="card-panel teal lighten-2 center-align white-text">RECETA PARA PREPARAR PASTEL DE CHOCOLATE</h4>
 
-<table class="bordered">
-	<tr>
-		<th> Cantidad</th>
-		<th> Producto</th>
-	</tr>
-	<tr>
-		<td>5</td>
-		<td>huevos</td>
-	</tr>
-	<tr>
-		<td>1 taza</td>
-		<td> leche condenzada</td>
-	</tr>
-	<tr>
-		<td>1 taza</td>
-		<td>leche evaporada</td>
-	</tr>
-	<tr>
-		<td>2 cucharadas</td>
-		<td>mantequilla</td>
-	</tr>
-	<tr>
-		<td>1 cucharada</td>
-		<td>vainilla</td>
-	</tr>
-</table>
-<div class="col s12 m7">
-    <h2 class="header">Vista preliminar</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="http://www.hersheys.com.mx/postres/assets/images/mexico_postres/Recipes/36.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Rendimiento: 14 porciones
-			Tiempo de Preparación: 40 minutos</p>
-        </div>
-        <div class="card-action">
-          <a href="paso1.php">Preparación</a>
-        </div>
-      </div>
-    </div>
-  </div>
-            
+<ul class="collection">
+    <li class="collection-item avatar">
+      <img src="http://aromadechocolate.com/wp-content/uploads/2014/10/Ingredientes-Pastel-trufado-de-chocolate.jpg" alt="" class="circle">
+      <span class="title">INGREDIENTES</span>
+        <a href="Ingredientes.php" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+    	 <img src="http://previews.123rf.com/images/yurumi/yurumi1202/yurumi120200021/12483577-Conjunto-retro-con-los-ingredientes-para-pasteles-y-utensilios-de-cocina-Foto-de-archivo.jpg" alt="" class="circle">
+      	<span class="title">PASOS PARA ELABORACIÓN</span>
+      	<a href="Pasos.php" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      	<i class="material-icons circle green">redeem</i>
+      	<span class="title">CONSEJOS</span>
+      	<a href="Consejos.php" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">comment</i>
+      <span class="title">COMENTARIOS</span>
+      <a href="Comentarios.php" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
  
-</div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script></body>       
 </body>
-</html> 
+</html>
