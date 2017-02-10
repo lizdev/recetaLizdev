@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+
 	<title>PREPARACIÓN</title>
 </head>
 <body>
@@ -38,6 +40,19 @@
   			<div class="card-action blue darken-4 center-align">
           <a href="Consejos.php">Consejos</a>
         </div>
+
+         <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red" href="index.php"><i class="material-icons">toc</i></a></li>
+      <li><a class="btn-floating yellow darken-1" href="Ingredientes.php"><i class="material-icons">view_list</i></a></li>
+      <li><a class="btn-floating green" href="Pasos.php"><i class="material-icons">comment</i></a></li>
+      <li><a class="btn-floating blue" href="Consejos.php"><i class="material-icons">chat</i></a></li>
+      <li><a class="btn-floating blue" href="Comentarios.php"><i class="material-icons">question_answer</i></a></li>
+    </ul>
+  </div>
 
   	</div>		
 
