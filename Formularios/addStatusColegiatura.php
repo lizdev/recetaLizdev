@@ -13,8 +13,8 @@
  			<h4 class="card-panel teal lighten-2 center-align white-text">Estatus de colegiaturas</h4>
 				
 				<div class="input-field col s10">
-                   <input id="colegiaturas_id" type="text" class="validate">
-          		   <label for="colegiaturas_id">Estatus de colegiaturas</label>
+                   <input id="statusColegiatura_id" type="text" class="validate">
+          		   <label for="statusColegiatura_id">Estatus de colegiaturas</label>
 
       		</div>
 
@@ -27,7 +27,7 @@
 <script type="text/javascript">
 	
 		function verSiHayColegiatura (){
-				var statusColegiatura = $("#colegiaturas_id").val ();
+				var statusColegiatura = $("#statusColegiatura_id").val ();
 
 						if (statusColegiatura == ""){
 							Materialize.toast ("No ha agregado nada",4000);
