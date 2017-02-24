@@ -120,17 +120,17 @@
 
 
 		    <div class="col s12 m12 l4">
-		    <h5 class="header">Horarios</h5>
+		    <h5 class="header">Catedráticos</h5>
 		    <div class="card horizontal">
 		      <div class="card-image">
 		        <img width="100px" height="180px" src="https://clik-eidos1.netdna-ssl.com/wp-content/uploads/2015/02/cocinar-sano-D.jpg">
 		      </div>
 		      <div class="card-stacked">
 		        <div class="card-content">
-		          <p>Aquí podras agregar los horarios para cada asignatura</p>
+		          <p>Aquí podras agregar o actualizar los catedráticos para cada asignatura</p>
 		        </div>
 		        <div class="card-action">
-		          <a href="horarios.php">Horarios</a>
+		          <a href="Formularios/addMaestros.php">Catedráticos</a>
 		        </div>
 		      </div>
 		    </div>
